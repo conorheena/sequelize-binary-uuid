@@ -1,3 +1,22 @@
+This branch offers a forked release of the original [`sequelize-binary-uuid`
+repo](https://github.com/odo-network/sequelize-binary-uuid), which seems to have
+become stale.
+
+The fork is released at
+https://www.npmjs.com/package/@sgeb/sequelize-binary-uuid
+
+```
+npm install @sgeb/sequelize-binary-uuid
+```
+
+The fork includes the following:
+
+- PR [#3](https://github.com/odo-network/sequelize-binary-uuid/pull/3) from the
+  original repo: fixes a bug where binary UUIDs are truncated when transferred
+  to the database ("fix invalid binding").
+
+ ---
+
 # sequelize-binary-uuid
 
 This builds upon the [binary-uuid](https://github.com/odo-network/binary-uuid) package by making it easy to implement into [Sequelize](https://www.github.com/sequelize/sequelize).
