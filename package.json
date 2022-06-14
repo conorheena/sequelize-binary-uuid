@@ -1,6 +1,6 @@
 {
   "name": "@sgeb/sequelize-binary-uuid",
-  "version": "1.0.0-1.pr3",
+  "version": "1.0.0-1.pr4",
   "description": "Makes it easy to implement binary(16) uuid's into Sequelize projects.",
   "main": "dist/index.js",
   "author": "odo, sgeb, and other contributors",
@@ -49,7 +49,7 @@
     "sequelize": "^4.42.0"
   },
   "peerDependencies": {
-    "sequelize": "^4.42.0"
+    "sequelize": "^4.0.0 || ^5.0.0 || ^6.0.0"
   },
   "dependencies": {
     "binary-uuid": "^1.2.0"
